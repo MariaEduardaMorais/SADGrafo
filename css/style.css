@@ -61,15 +61,15 @@ canvas {
 
 /* Gráfico de barras */
 #chart_div {
-    border: 4px solid #d9d9d9;
+    border: none;
     border-radius: 15px;
     padding: 20px;
     background-color: #fafafa;
-    width: 100%;  /* Ajusta a largura para usar toda a largura disponível */
-    max-width: 1200px;  /* Limita a largura máxima */
-    height: 100%;  /* Usa a altura disponível */
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
     margin: 0 auto;
     display: block;
-    box-sizing: border-box; /* Faz o padding contar na largura total */
-    overflow: visible; /* Garante que o conteúdo não será cortado */
+    box-sizing: border-box;
+    overflow: visible;
 }
