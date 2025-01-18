@@ -92,7 +92,7 @@ function plotBarChart(data) {
         const dataTable = new google.visualization.DataTable();
         dataTable.addColumn('string', 'Pessoa');
         dataTable.addColumn('number', 'Conexões');
-        dataTable.addColumn({ type: 'string', role: 'tooltip' }); // Coluna para o tooltip
+        dataTable.addColumn({ type: 'string', role: 'tooltip' });
 
         for (const [person, count] of Object.entries(data)) {
             dataTable.addRow([person, count, `${person}: ${count} conexão(ões)`]);
@@ -104,8 +104,8 @@ function plotBarChart(data) {
             vAxis: { title: 'Conexões' },
             tooltip: { isHtml: true },
             colors: ['#a8d5e2'],
-            width: 1000, // Aumenta a largura do gráfico
-            height: 400, // Altura do gráfico
+            width: 1000,
+            height: 400, 
         };
 
         const chart = new google.visualization.ColumnChart(

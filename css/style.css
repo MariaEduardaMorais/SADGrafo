@@ -1,4 +1,4 @@
-/* Estilo geral */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 
-/* Centraliza tudo */
+
 .container {
     background-color: #ffffff;
     padding: 20px;
@@ -21,14 +21,14 @@ body {
     text-align: center;
 }
 
-/* Título */
+
 h1 {
     font-size: 2rem;
     color: #4a4a4a;
     margin-bottom: 20px;
 }
 
-/* Botões e input */
+
 .file-input {
     margin-bottom: 20px;
 }
@@ -52,14 +52,14 @@ button:hover {
     background-color: #89c2d9;
 }
 
-/* Canvas para o grafo */
+
 canvas {
     border: 2px solid #d9d9d9;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-/* Gráfico de barras */
+
 #chart_div {
     border: none;
     border-radius: 15px;
